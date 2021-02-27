@@ -1,108 +1,192 @@
 
- /* Smartphones (portrait and landscape) ----------- */
-    @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px) {
+/* -----------  Smartphones with a smallest width (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 320px) {
+ .testimonial-container {
+     margin: 0;
+     padding: 4rem 0;
+ }
+ .testimonial-item {
+     flex-direction: column-reverse;
+     margin: 0;
+     padding: .6rem;
+ }
+ .testimonial-projects img {
+     margin: 0;
+     height: 197px;
+     width: auto;
+ }
+ .testimonial-items {
+     width: 100%;
+     margin-top: -4rem;
+ }
+ .testimonial-items p {
+     padding: 0;
+     margin-bottom: 1rem;
+ }
+ .testimonial-item-profile {
+     margin: auto;
+     width: 50%;
+     padding-right: 10rem;
+ }
+ .testimonial-items img {
+     width: 157px;
+     height: auto;
+ }
+ .author {
+     font-size: 16px;
+ }
+ q {
+     font-size: 18px;
+ }
+} 
 
-    .testimonial-container {
-        margin: 0;
-        padding: 4rem 0;
-    }
-    .testimonial-item {
-        flex-direction: column-reverse;
-        margin: 0;
-        padding: .6rem;
-    }
-    .testimonial-projects img {
-        margin: 0;
-        height: 197px;
-        width: auto;
-    }
-    .testimonial-items {
-        width: 100%;
-        margin-top: -4rem;
-    }
-    .testimonial-items p {
-        padding: 0;
-        margin-bottom: 1rem;
-    }
-    .testimonial-item-profile {
-        margin: auto;
-        width: 50%;
-    }
-    .testimonial-items img {
-        width: 157px;
-        height: auto;
-    }
-    .author {
-        font-size: 16px;
-    }
-
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
- 
+/* -----------  Smartphones with larger width (portrait and landscape) ----------- */
 @media only screen
-    and (min-device-width: 375px)
-    and (max-device-width: 667px)
-    and (-webkit-min-device-pixel-ratio: 2)
-    and (orientation: portrait) {
-    
-    .testimonial-container {
-        margin: 0;
-        padding: 3rem 0;
-    }
-    .testimonial-item {
-        flex-direction: column-reverse;
-
-    }
-    .testimonial-projects img {
-        margin: 0;
-        height: 240px;
-        width: auto;
-    }
-    .testimonial-items {
-        width: 100%;
-        margin-top: -4rem;
-    }
-    .testimonial-items img {
-        width: 160px;
-        height: auto;
-    }
-
-    .testimonial-item-profile {
-        margin: auto;
-        width: 50%;
-    }
+ and (min-device-width : 321px) 
+ and (max-device-width : 375px) {
+ .testimonial-container {
+     margin: 0;
+     padding: 4rem 0;
+ }
+ .testimonial-item {
+     flex-direction: column-reverse;
+     margin: 0;
+     padding: .6rem;
+ }
+ .testimonial-projects img {
+     margin: 0;
+     height: 197px;
+     width: auto;
+ }
+ .testimonial-items {
+     width: 100%;
+     margin-top: -4rem;
+ }
+ .testimonial-items p {
+     padding: 0;
+     margin-bottom: 1rem;
+ }
+ .testimonial-item-profile {
+     margin: auto;
+     width: 50%;
+     margin-right: 5rem;
+ }
+ .testimonial-items img {
+     width: 157px;
+     height: auto;
+ }
+ q {
+     font-size: 20px;
+ }
+ .author {
+     font-size: 16px;
+ }
 }
 
-/* Tablets (portrait and landscape) ----------- */
-@media only screen 
-    and (min-device-width : 768px) 
-    and (max-device-width : 1024px) {
-    
-    .testimonials {
-        width: 100%;
-        padding-bottom: 4rem;
-    }
-    .testimonial-container {
-        margin: 0;
-        padding: 4rem 0;
-    }
-    .testimonial-item {
-        padding: 1rem 2rem;
-        margin: 0 2rem;
-    }
-    .testimonial-items {
-        width: 60%;
-        margin-left: 3rem;
-    }
-    .testimonial-item-text {
-        padding: 2rem;
-    }
-    .author {
-        padding-top: 0;
-        text-align: center;
-    }
+/* -----------  Smartphones with extra large screens (portrait and landscape) ----------- */
+@media only screen
+ and (min-device-width : 376px) 
+ and (max-device-width : 480px) {
+ .testimonial-container {
+     margin: 0;
+     padding: 4rem 0;
+ }
+ .testimonial-item {
+     flex-direction: column-reverse;
+     margin: 0;
+     padding-bottom: 2rem;
+ }
+ .testimonial-items {
+     width: 100%;
+     margin-top: -4rem;
+ }
+ .testimonial-projects img {
+     margin: 0;
+     height: 220px;
+     width: auto;
+ }
+ .testimonial-item-profile {
+     margin-left: 4rem;
+ }
+ .testimonial-item-text {
+     padding: 1.5rem;
+ }
+ q {
+     font-size: 20px;
+ }
+}
 
+/* -----------  Tablets (portrait and landscape) ----------- */
+@media only screen
+ and (min-device-width : 481px) 
+ and (max-device-width : 768px) {
+ .testimonial-container {
+     margin: 0;
+     padding: 4rem 2rem;
+ }
+ .testimonial-item {
+     padding: 0;
+     margin: 1rem 4rem;
+ }
+ .testimonial-items {
+     width: 60%;
+     margin-top: -3rem;
+ }
+ .testimonial-projects img {
+     height: 375px;
+     width: auto;
+     margin: -3rem;
+ }
+}
+/* ----------- Tablets with wide screen (portrait and landscape) ----------- */
+@media only screen
+ and (min-device-width : 767px) 
+ and (max-device-width : 1024px) {
+ .testimonial-container {
+     margin: 0 4rem;
+     padding: 4rem 2rem;
+ }
+ .testimonial-item {
+     margin: 2rem;
+     padding: 0;
+     width: 100%;
+ }
+ .testimonial-items {
+     width: 80%;
+     margin-top: -4rem;
+     padding: 1rem 0;
+ }
+ .testimonial-item-text {
+     padding-left: 2rem;
+ }
+ .testimonial-item-profile {
+     margin:auto;
+     width: 50%;
+ }
+ q {
+     font-size: 18px;
+ }
+}
+/* -----------  Laptop devices (portrait and landscape) ----------- */
+@media only screen
+ and (min-device-width : 1025px) 
+ and (max-device-width : 1440px) {
+ .testimonial-container {
+     margin: 0 7rem;
+     padding: 4rem 5rem;
+ }
+ .testimonial-item {
+     margin: 0 5rem;
+     padding: 1rem 2rem;
+ }
+ .testimonial-items {
+     margin-top: -4rem;
+ }
+ .testimonial-item-profile {
+     margin: auto;
+     width: 50%;
+ }
+ q {
+     font-size: 24px;
+ }
 }
